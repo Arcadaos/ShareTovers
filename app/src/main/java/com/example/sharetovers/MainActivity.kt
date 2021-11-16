@@ -8,8 +8,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
-    String s1[], s2[]
-    int images[] = { R.drawable.Asian;R.drawable.French;R.drawable.Packaged;R.drawable.Fruits;R.drawable.Indian;R.drawable.Asian;R.drawable.Pastries;R.drawable.Pizza;R.drawable.Desert;R.drawable.Mediteranean;R.drawable.Pasta}
+    var String s1[], s2[]
+    var int images[] = { R.drawable.asian;R.drawable.french;R.drawable.packaged;R.drawable.fruits;R.drawable.indian;R.drawable.pastries;R.drawable.pizza;R.drawable.desert;R.drawable.mediteranean;R.drawable.pasta}
     RecyclerView recyclerView;
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,11 +17,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         // val navController = findNavController(R.id.fragmentContainerView)
-
         // bottomNavigationView.setupWithNavController(navController)
 
-        s1 = getResources().getStringArray(R.array.food_types)
-        RecyclerView = findViewById<>(R.id.recyclerView)
+        var s1 = getResources().getStringArray(R.array.food_types)
+        //RecyclerView = findViewById<>(R.id.recyclerView)
 
     }
 
