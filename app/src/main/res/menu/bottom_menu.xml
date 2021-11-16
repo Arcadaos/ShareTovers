@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sharing"
+        android:icon="@drawable/ic_sharing"
+        android:id="@+id/fragment_search"/>
+
+    <item android:title="Shop"
+        android:icon="@drawable/ic_shop"
+        android:id="@+id/fragment_shops" />
+
+    <item android:title="Hosting"
+        android:icon="@drawable/ic_hosting"
+        android:id="@+id/fragment_hosting"/>
+
+    <item android:title="Map"
+        android:icon="@drawable/ic_map"
+        android:id="@+id/fragment_map"/>
+
+    <item android:title="Search"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/fragment_search"/>
+
+</menu>
