@@ -39,10 +39,15 @@
             </intent-filter>
         </activity>
 
-        <activity>
+        <activity
             android:name=".MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.APP_MAPS" />
+            </intent-filter>
         </activity>
     
     </application>
