@@ -8,9 +8,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
-    var String s1[], s2[]
-    var int images[] = { R.drawable.asian;R.drawable.french;R.drawable.packaged;R.drawable.fruits;R.drawable.indian;R.drawable.pastries;R.drawable.pizza;R.drawable.desert;R.drawable.mediteranean;R.drawable.pasta}
-    RecyclerView recyclerView;
+    //var String s1[], s2[]
+    // var int images[] = { R.drawable.asian;R.drawable.french;R.drawable.packaged;R.drawable.fruits;R.drawable.indian;R.drawable.pastries;R.drawable.pizza;R.drawable.desert;R.drawable.mediteranean;R.drawable.pasta}
+    //RecyclerView recyclerView;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
