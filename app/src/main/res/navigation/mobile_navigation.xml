@@ -17,6 +17,13 @@
         android:name="com.example.sharetovers.shops"
         android:label="fragment_shops"
         tools:layout="@layout/fragment_shops" />
+
+    <fragment
+        android:id="@+id/hosting"
+        android:name="com.example.sharetovers.hosting"
+        android:label="fragment_hosting"
+        tools:layout="@layout/fragment_hosting" />
+
     <fragment
         android:id="@+id/mapsFragment"
         android:name="com.example.sharetovers.MapsFragment"
@@ -29,11 +36,7 @@
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
 
-    <fragment
-        android:id="@+id/hosting"
-        android:name="com.example.sharetovers.hosting"
-        android:label="fragment_hosting"
-        tools:layout="@layout/fragment_hosting" />
+
 
 
 </navigation>
