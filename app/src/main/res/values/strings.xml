@@ -1,13 +1,24 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="adresse">Adresse</string>
-    <string name="sauvez_de_la_nourriture_et_faites_des_conomies">Sauvez de la nourriture et faites des économies</string>
-    <string name="universit_du_quebec_chicoutimi">université du Quebec à Chicoutimi</string>
-    <string name="gagne_5_de_cr_dit_pour_tes_premiers_plats_sauv_s">Gagne 5$ de crédit pour tes premiers plats sauvés</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="les_offres_proximit">Les offres à proximité</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="adresse">adresse</string>
+    <string name="universit_du_quebec_chicoutimi">universit du quebec chicoutimi</string>
+    <string name="gagne_5_de_cr_dit_pour_tes_premiers_plats_sauv_s">gagne 5 $ de crédit pour tes premiers plats sauvés</string>
+    <string name="sauvez_de_la_nourriture_et_faites_des_conomies">sauvez de la nourriture et faites des économies</string>
+    <string name="les_offres_proximit">les offres proximit</string>
+    <string name="image_1">image 1</string>
+    <string name="image_2">image 2</string>
+    <string name="la_bonne_patate">la bonne patate</string>
+    <string name="iga">iga</string>
+    <string name="_4_6_0_7km">4.6☆ 0.7km</string>
+    <string name="_4_3_1_3km">4.3☆ 1.3km</string>
+    <string name="todofab">TODOfab</string>
 </resources>
