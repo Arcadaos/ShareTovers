@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sharing"
+        android:icon="@drawable/ic_sharing"
+        android:title="Sharing" />
+
+    <item
+        android:id="@+id/shops"
+        android:icon="@drawable/ic_shop"
+        android:title="Shops" />
+
+    <item
+        android:id="@+id/hosting"
+        android:icon="@drawable/ic_hosting"
+        android:title="Hosting" />
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/ic_map"
+        android:title="Maps" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+
+</menu>

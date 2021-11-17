@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/hosting">
+
+
+    <fragment
+        android:id="@+id/sharing"
+        android:name="com.example.sharetovers.sharing"
+        android:label="fragment_sharing"
+        tools:layout="@layout/fragment_sharing" />
+
+    <fragment
+        android:id="@+id/shops"
+        android:name="com.example.sharetovers.shops"
+        android:label="fragment_shops"
+        tools:layout="@layout/fragment_shops" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.sharetovers.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.sharetovers.Search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/hosting"
+        android:name="com.example.sharetovers.hosting"
+        android:label="fragment_hosting"
+        tools:layout="@layout/fragment_hosting" />
+
+
+</navigation>
